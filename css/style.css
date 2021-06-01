@@ -33,6 +33,7 @@ body {
     height: 80px;
     position: fixed;
     transform: translateX(40%);
+    z-index: 1;
 }
 
 .menu ul {
