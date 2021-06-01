@@ -2,3 +2,7 @@
     margin: 0 auto;
     padding: 0 auto;box-sizing: border-box;
 }
+
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
