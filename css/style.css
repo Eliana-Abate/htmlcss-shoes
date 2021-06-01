@@ -5,4 +5,24 @@
 
 body {
     font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    color: yellow;
 }
+
+.full-page {
+    height: 100vh;
+}
+
+#blue-shoes{
+    background-color: red;
+}
+
+#white-shoes{
+    background-color: green;
+}
+
+#green-shoes{
+    background-color: yellow;
+    color: green;
+}
+
