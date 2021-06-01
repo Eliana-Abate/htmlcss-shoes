@@ -57,15 +57,16 @@ body {
     display: inline-block;
 }
 
-.full-page img {
+
+.full-page .box {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.full-page div h1 {
-    position: absolute;
-    bottom:10%;
-    transform: translateX(50%);
+.box div {
+    width: 400px;
 }
+
+
