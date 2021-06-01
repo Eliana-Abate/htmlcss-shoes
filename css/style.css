@@ -7,6 +7,7 @@ body {
     font-family: 'Rubik Mono One', sans-serif;
     text-align: center;
     color: yellow;
+    position: relative;
 }
 
 .full-page {
@@ -28,17 +29,27 @@ body {
 
 .menu {
     width: 100%;
-    height: 100px;
+    height: 80px;
     position: fixed;
-    top: 0;
-    right: 0;
+    transform: translateX(40%);
 }
 
-.menu ul li {
+.menu ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu li {
     list-style-type: none;
+    display: inline-block;
 }
 
-.menu ul li a {
+.menu a {
     color: black;
+    font-size: small;
     text-decoration: none;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-block;
 }
